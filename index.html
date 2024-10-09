@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p id="demo"></p>
+    <p id="result"></p>
+    <script>
+        var fruit = ["apple", "pineapple", "jack fruit", "grapes", "watermelon", "banana"];
+        for (i = 0; i < fruit.length; i++) {
+            var text = fruits[i] + "<br>"
+            document.getElementById("demo").innerHTML = text
+        }
+
+        var day;
+        switch (new Date().getDay()) {
+            case 7:
+                day = "sunday";
+                break;
+            case 1:
+                day = "Munday";
+                break;
+            case 2:
+                day = "Tuesday";
+                break;
+            case 3:
+                day = "Wednesday";
+                break;
+            case 4:
+                day = "Thursday";
+                break;
+            case 5:
+                day = "Friday";
+                break;
+            case 6:
+                day = "Saturday";
+                break;
+
+
+        }
+        document.write(day);
+    </script>
+</body>
+
+</html>
